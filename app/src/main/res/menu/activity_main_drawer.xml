@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_option"
+            android:icon="@drawable/img_5"
+            android:title="Opciones de Registros"/>
+        <item
+            android:id="@+id/nav_paciente"
+            android:icon="@drawable/outline_inpatient_24"
+            android:title="Registrar Paciente" />
+        <item
+            android:id="@+id/nav_medico"
+            android:icon="@drawable/medical_0102"
+            android:title="Registrar Médico" />
+        <item
+            android:id="@+id/nav_citas"
+            android:icon="@drawable/img"
+            android:title="Gestión de Citas" />
+
+        <item android:title="Gráficos">
+            <menu>
+                <item
+                    android:id="@+id/nav_dashboard"
+                    android:icon="@drawable/img_1"
+                    android:title="Dashboard" />
+            </menu>
+        </item>
+
+    </group>
+
+    <item android:title="Opciones de Listados">
+        <menu>
+            <item
+                android:id="@+id/listado_paciente"
+                android:icon="@drawable/baseline_list_alt_24"
+                android:title="Pacientes locales" />
+
+            <item
+                android:id="@+id/nav_api_paciente"
+                android:icon="@drawable/baseline_list_alt_24"
+                android:title="Api Pacientes" />
+            <item
+                android:id="@+id/nav_api_consulta"
+                android:icon="@drawable/baseline_list_alt_24"
+                android:title="Api Consultas" />
+
+        </menu>
+    </item>
+    <item android:title="Api Mongo DB">
+        <menu>
+            <item
+                android:id="@+id/nav_api_medicos"
+                android:icon="@drawable/baseline_list_alt_24"
+                android:title="Api Medicos" />
+
+        </menu>
+    </item>
+    <item android:title="Más Opciones">
+        <menu>
+            <item
+                android:id="@+id/nav_ajustes"
+                android:icon="@drawable/img_2"
+                android:title="Ajustes" />
+            <item
+                android:id="@+id/nav_info"
+                android:icon="@drawable/img_4"
+                android:title="Acerca de Nosotros" />
+            <item
+                android:id="@+id/nav_cerrar_sesion"
+                android:icon="@drawable/img_3"
+                android:title="Cerrar Sesión" />
+
+        </menu>
+    </item>
+</menu>

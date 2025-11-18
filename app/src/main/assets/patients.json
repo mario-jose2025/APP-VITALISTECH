@@ -1,0 +1,92 @@
+[
+  {
+    "Código": "P001",
+    "Nombres": "Juan Alfredo",
+    "Apellidos": "Mejia Torrez",
+    "Fecha_nacimiento": "1990-05-15",
+    "Direccion": "Calle Falsa 123",
+    "Telefono": "555-1234",
+    "Genero": "Masculino"
+  },
+  {
+    "Código": "P002",
+    "Nombres": "Ana Gabriela",
+    "Apellidos": "Gómez Martinez",
+    "Fecha_nacimiento": "1985-09-30",
+    "Direccion": "Avenida Siempre Viva 742",
+    "Telefono": "555-5678",
+    "Genero": "Femenino"
+  },
+  {
+    "Código": "P003",
+    "Nombres": "Luis Miguel",
+    "Apellidos": "Martínez Oporta",
+    "Fecha_nacimiento": "2000-01-20",
+    "Direccion": "Boulevard de los Sueños 456",
+    "Telefono": "555-8765",
+    "Genero": "Masculino"
+  },
+  {
+    "Código": "P004",
+    "Nombres": "Fernando David",
+    "Apellidos": "Mora Rios",
+    "Fecha_nacimiento": "2000-01-14",
+    "Direccion": "Linda vista Managua",
+    "Telefono": "555-4454",
+    "Genero": "Masculino"
+  },
+  {
+    "Código": "P005",
+    "Nombres": "Marcos Antonio",
+    "Apellidos": "Perez Seledón",
+    "Fecha_nacimiento": "2003-01-15",
+    "Direccion": "Multicentro las Brisas",
+    "Telefono": "7785-6589",
+    "Genero": "Masculino"
+  },
+  {
+    "Código": "P006",
+    "Nombres": "Eileen María",
+    "Apellidos": "Tercero Zambrana",
+    "Fecha_nacimiento": "2006-01-14",
+    "Direccion": "Sabana Grande",
+    "Telefono": "7798-4578",
+    "Genero": "Femenino"
+  },
+  {
+    "Código": "P007",
+    "Nombres": "Sara Gabriela",
+    "Apellidos": "Murillo Gutierrez",
+    "Fecha_nacimiento": "2006-02-06",
+    "Direccion": "San Judas chiva ahi",
+    "Telefono": "1245-8878",
+    "Genero": "Femenino"
+  },
+  {
+    "Código": "P008",
+    "Nombres": "Maria Elisa",
+    "Apellidos": "Peralta Pavón",
+    "Fecha_nacimiento": "2008-08-17",
+    "Direccion": "Masaya fiestera",
+    "Telefono": "5512-3245",
+    "Genero": "Femenino"
+  },
+  {
+    "Código": "P009",
+    "Nombres": "Dvid Nathaniel",
+    "Apellidos": "Torrez Delgado",
+    "Fecha_nacimiento": "2005-01-12",
+    "Direccion": "Managua",
+    "Telefono": "4755-4787",
+    "Genero": "Masculino"
+  },
+  {
+    "Código": "P010",
+    "Nombres": "Mario José",
+    "Apellidos": "Fargas Amador",
+    "Fecha_nacimiento": "2002-08-27",
+    "Direccion": "Boaco ciudad de 2 pisos xd",
+    "Telefono": "7757-3241",
+    "Genero": "Masculino"
+  }
+]
