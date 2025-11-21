@@ -33,7 +33,7 @@
 
     </group>
 
-    <item android:title="Opciones de Listados">
+    <item android:title="Opciones de Listados del Cubo">
         <menu>
             <item
                 android:id="@+id/listado_paciente"
@@ -51,7 +51,7 @@
 
         </menu>
     </item>
-    <item android:title="Api Mongo DB">
+    <item android:title="Opciones de listado de Mongo">
         <menu>
             <item
                 android:id="@+id/nav_api_medicos"

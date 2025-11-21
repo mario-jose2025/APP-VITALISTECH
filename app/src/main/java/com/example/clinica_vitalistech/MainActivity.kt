@@ -91,6 +91,11 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                 startActivity(Intent(this, PacientesActivity::class.java))
             }
 
+            R.id.nav_medico -> {
+                Toast.makeText(this, "Abriendo: Registrar Medicos", Toast.LENGTH_SHORT).show()
+                startActivity(Intent(this, MedicosActivity::class.java))
+            }
+
 
             R.id.nav_citas -> {
                 Toast.makeText(this, "Abriendo: Gestión de Citas", Toast.LENGTH_SHORT).show()
@@ -110,10 +115,6 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             R.id.nav_info -> {
                 Toast.makeText(this, "Abriendo Información...", Toast.LENGTH_SHORT).show()
                 startActivity(Intent(this, InfoActivity::class.java))
-            }
-
-            R.id.nav_ajustes -> {
-                Toast.makeText(this, "Abriendo Ajustes...", Toast.LENGTH_SHORT).show()
             }
 
             R.id.nav_cerrar_sesion -> {
@@ -136,6 +137,12 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             R.id.nav_api_medicos -> {
                 Toast.makeText(this, "Cargando datos desde la API...", Toast.LENGTH_SHORT).show()
                 val intent = Intent(this, com.example.clinica_vitalistech.api.ListaMedicosActivity::class.java)
+                startActivity(intent)
+            }
+
+            R.id.nav_ajustes -> {
+                Toast.makeText(this, "Abriendo Ajustes...", Toast.LENGTH_SHORT).show()
+                val intent = Intent(this, SettingsActivity::class.java)
                 startActivity(intent)
             }
 

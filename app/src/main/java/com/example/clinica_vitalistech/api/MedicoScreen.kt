@@ -129,7 +129,7 @@ fun MedicoItem(medico: DimMedico) {
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Icon(Icons.Default.Work, contentDescription = null, tint = MaterialTheme.colorScheme.primary)
                 Spacer(Modifier.width(8.dp))
-                Text("Especialidad: ${medico.especialidad}")
+                Text("Especialidad: ${medico.especialidadId}")
             }
 
             Row(verticalAlignment = Alignment.CenterVertically) {
@@ -144,7 +144,7 @@ fun MedicoItem(medico: DimMedico) {
                 Text("Teléfono: ${medico.telefono}")
             }
 
-            Text("Fecha de Nacimiento: ${medico.fechanacimiento}")
+            Text("Fecha de Nacimiento: ${medico.fechaNacimiento}")
         }
     }
 }

@@ -2,16 +2,17 @@ package com.example.clinica_vitalistech.api
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
-
 object RetrofitMedico {
 
-    private const val BASE_URL = "http://10.0.2.2:8000/"
+    private const val BASE_URL_MONGO =
+        "https://api-mongodemo20251120084538-d9byfye3e7g2a7gm.canadacentral-01.azurewebsites.net/"
 
-    val api: ApiService by lazy {
+    val api: ApiServiceMongo by lazy {
         Retrofit.Builder()
-            .baseUrl(BASE_URL)
+            .baseUrl(BASE_URL_MONGO)
             .addConverterFactory(GsonConverterFactory.create())
             .build()
-            .create(ApiService::class.java)
+            .create(ApiServiceMongo::class.java)
     }
 }
+

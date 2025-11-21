@@ -46,13 +46,21 @@
             android:name=".RegisterAccountActivity"
             android:exported="true" />
 
-        <activity android:name=".PerfilUsuarioActivity"/>
-
         <activity android:name=".api.ListaPacientesActivity"/>
 
         <activity android:name=".api.ListaConsultasActivity"/>
 
         <activity android:name=".api.ListaMedicosActivity"/>
+
+        <activity android:name=".SettingsActivity"/>
+
+        <activity android:name=".PerfilUsuarioActivity" />
+
+        <activity android:name=".EditarPerfilActivity" />
+
+
+
+
 
 
 

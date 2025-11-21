@@ -68,6 +68,7 @@ dependencies {
     implementation(libs.androidx.navigation.fragment.ktx)
     implementation(libs.androidx.navigation.ui.ktx)
     implementation(libs.androidx.ui)
+    implementation(libs.androidx.material3)
     debugImplementation("com.squareup.okhttp3:logging-interceptor:4.12.0")
     // Coil para imágenes
     implementation("io.coil-kt:coil:2.6.0")

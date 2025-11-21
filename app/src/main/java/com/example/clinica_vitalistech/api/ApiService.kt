@@ -11,7 +11,4 @@ interface ApiService {
     fun getConsultas(): Call<List<DimConsulta>>
 
 
-    @GET("medico")
-    fun getMedicos(): Call<List<DimMedico>>
-
 }
