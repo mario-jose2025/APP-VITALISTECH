@@ -54,7 +54,7 @@ fun MedicosScreen() {
             CenterAlignedTopAppBar(
                 title = {
                     Text(
-                        "Lista de Médicos",
+                        "Lista de Médicos de MongoDb",
                         fontWeight = FontWeight.Bold,
                         color = Color.White
                     )

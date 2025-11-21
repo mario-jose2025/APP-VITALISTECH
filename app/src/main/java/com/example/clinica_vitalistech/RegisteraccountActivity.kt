@@ -20,7 +20,6 @@ class RegisterAccountActivity : AppCompatActivity() {
             val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
 
-            // Opcional: finalizar RegisterAccountActivity para que no se pueda volver atrás
             finish()
         }
 

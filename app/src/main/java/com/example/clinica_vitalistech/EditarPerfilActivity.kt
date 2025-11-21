@@ -126,7 +126,6 @@ fun EditarPerfilScreen() {
             Button(
                 onClick = {
                     Toast.makeText(context, "Perfil actualizado", Toast.LENGTH_SHORT).show()
-                    // Aquí podrías guardar los cambios en tu base de datos o API
                 },
                 modifier = Modifier
                     .fillMaxWidth()

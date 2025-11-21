@@ -9,15 +9,15 @@ import androidx.appcompat.app.AppCompatActivity
 class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_login) // Asegúrate de que este sea el nombre correcto de tu layout
+        setContentView(R.layout.activity_login)
 
         // Inicializar el botón "Iniciar"
-        val buttonIniciar = findViewById<Button>(R.id.btniniciar) // Id del botón que recibe la acción
+        val buttonIniciar = findViewById<Button>(R.id.btniniciar)
         buttonIniciar.setOnClickListener {
             // Navegar a MainActivity
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
-            finish() // 🔹 Cierra LoginActivity para que no vuelva al presionar atrás
+            finish()
         }
 
         // Inicializar el TextView para registrarse

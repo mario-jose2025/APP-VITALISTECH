@@ -33,7 +33,7 @@ fun PacientesScreen(viewModel: PacienteViewModel = viewModel()) {
     Scaffold(
         topBar = {
             CenterAlignedTopAppBar(
-                title = { Text("Lista de Pacientes", fontWeight = FontWeight.Bold) },
+                title = { Text("Lista de Pacientes del Cubo", fontWeight = FontWeight.Bold) },
                 colors = TopAppBarDefaults.centerAlignedTopAppBarColors(
                     containerColor = MaterialTheme.colorScheme.primary,
                     titleContentColor = Color.White

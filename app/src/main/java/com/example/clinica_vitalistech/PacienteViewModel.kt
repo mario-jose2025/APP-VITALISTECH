@@ -17,14 +17,14 @@ class PacienteViewModel : ViewModel() {
     val error: LiveData<String?> = _error
 
     fun load() {
-        // Si ya está cargando, no hacemos nada
+
         if (_loading.value == true) return
 
-        // Indicamos que estamos cargando datos
+
         _loading.value = true
         _error.value = null
 
-        // Usamos viewModelScope para realizar la llamada a la API
+
         viewModelScope.launch {
             try {
                 // Llamamos a la API para obtener la lista de pacientes
